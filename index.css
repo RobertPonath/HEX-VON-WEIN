@@ -1,0 +1,176 @@
+/*  Inicio Fontes 
+**********************/
+
+@font-face {
+    font-family: MyriadPro Bold
+    ;
+    src: url(Fontes/MYRIADPRO-BOLD-4307264.woff);
+}
+@font-face {
+    font-family: MyriadPro Regular
+    ;
+    src: url(Fontes/MYRIADPRO-REGULAR-4307235.woff);
+}
+@font-face {
+    font-family: AvantGard-Bold
+    ;
+    src: url(Fontes/AvantGarde-Bold-7171274.woff);
+}
+@font-face {
+    font-family: AvantGard-Regular
+    ;
+    src: url(Fontes/AvantGarde-Regular-7171185.woff);
+}
+@font-face {
+    font-family: texHero
+    ;
+    src: url(Fontes/texhero-4307302.woff);
+}
+@font-face {
+    font-family: centranume
+    ;
+    src: url(Fontes/centranube-medium-webfont-7171119.woff);
+}
+
+@font-face {
+    font-family: frank-ruhl-libre
+    ;
+    src: url(Fontes/frank-ruhl-libre-v12-latin-regular.woff);
+}
+
+/*  Fim Fontes 
+**********************/
+body{
+    background-color: #1A1C20;
+}
+/*  inicio navbar 
+**********************/
+header nav {
+    background-color: #15171A;
+
+}
+header nav img {
+    max-width: 13vh;
+}
+header li a{
+    font-size: 3vh;
+    font-family: MyriadPro Bold;
+    text-decoration: none;
+    color: #fff;
+    margin: 2vh;
+}
+
+header li a:hover{
+    color: #C3B491;
+}
+header li .btn {
+    padding: 2vh;
+    
+    border-radius: 0;
+    margin-right: -11vh;
+    background-color: #6A013C;
+ 
+}
+header li .btn:hover{
+    background-color: #740045;
+    color: #fff;
+}
+/*  fim navbar 
+**********************/
+#oVinho {
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/video-capa.mp4);
+}
+
+h1 {
+    color: #fff;
+    font-family: frank-ruhl-libre;
+    margin: -1vh;
+    font-size: 9vh;
+    font-weight:600;
+    
+}
+
+#oVinho .conteudo p {
+    font-family:MyriadPro Regular;
+    text-transform: uppercase;
+    color: #C2B390;
+    font-size: 2vh;
+    letter-spacing: 0.8vh;
+}
+
+.text p {
+    color: rgb(173, 165, 165);
+    font-size: 2.5vh;
+}
+
+
+#HexVonWein {
+    margin-top: 150px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+#HexVonWein .conteudo p {
+    font-family:MyriadPro Regular;
+    text-transform: uppercase;
+    color: #C2B390;
+    font-size: 2vh;
+    letter-spacing: 0.8vh;
+}
+
+.img img {
+    width:80%;
+}
+
+div .row {
+    margin-top: 30px;
+    text-align: center;
+}
+
+div .row p {
+    color: rgb(173, 165, 165);
+    font-size: 2.5vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+ .col-lg-6 img {
+    width: 50%;
+ }
+
+#AsBruxas {
+    background-color: #181B1E;
+}
+
+#Vinícola {
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+#Vinícola .conteudo p {
+    font-family:MyriadPro Regular;
+    text-transform: uppercase;
+    color: #C2B390;
+    font-size: 2vh;
+    letter-spacing: 0.8vh;
+}
+
+#text-40 {
+    display: inline-block;
+    width: 40%;
+}
+
+.bg-violet {
+    background-color: #5C0037;
+}
+.bg-violet p {
+    font-family: MyriadPro Regular !important ;
+    color: rgb(255, 255, 255) !important;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
