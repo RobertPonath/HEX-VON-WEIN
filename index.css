@@ -1,43 +1,40 @@
 /*  Inicio Fontes 
 **********************/
-
-@font-face {
+@font-face /*  MyriadPro Bold */ {
     font-family: MyriadPro Bold
     ;
     src: url(Fontes/MYRIADPRO-BOLD-4307264.woff);
 }
-@font-face {
+@font-face /*  MyriadPro Regular*/{
     font-family: MyriadPro Regular
     ;
     src: url(Fontes/MYRIADPRO-REGULAR-4307235.woff);
 }
-@font-face {
+@font-face /*   AvantGard-Bold */{
     font-family: AvantGard-Bold
     ;
     src: url(Fontes/AvantGarde-Bold-7171274.woff);
 }
-@font-face {
+@font-face /*  AvantGard-Regular */{
     font-family: AvantGard-Regular
     ;
     src: url(Fontes/AvantGarde-Regular-7171185.woff);
 }
-@font-face {
+@font-face /*  texHero*/{
     font-family: texHero
     ;
     src: url(Fontes/texhero-4307302.woff);
 }
-@font-face {
+@font-face /* centranume*/{
     font-family: centranume
     ;
     src: url(Fontes/centranube-medium-webfont-7171119.woff);
 }
-
-@font-face {
+@font-face /* frank-ruhl-libre */{
     font-family: frank-ruhl-libre
     ;
     src: url(Fontes/frank-ruhl-libre-v12-latin-regular.woff);
 }
-
 /*  Fim Fontes 
 **********************/
 body{
@@ -47,7 +44,6 @@ body{
 **********************/
 header nav {
     background-color: #15171A;
-
 }
 header nav img {
     max-width: 13vh;
@@ -59,7 +55,6 @@ header li a{
     color: #fff;
     margin: 2vh;
 }
-
 header li a:hover{
     color: #C3B491;
 }
@@ -77,22 +72,22 @@ header li .btn:hover{
 }
 /*  fim navbar 
 **********************/
+
+/*  INICIO OVINHO 
+**********************/
 #oVinho {
     margin-top: 200px;
     align-items: center;
     text-align: center;
     background-image: url(img/video-capa.mp4);
 }
-
 h1 {
     color: #fff;
     font-family: frank-ruhl-libre;
     margin: -1vh;
     font-size: 9vh;
     font-weight:600;
-    
 }
-
 #oVinho .conteudo p {
     font-family:MyriadPro Regular;
     text-transform: uppercase;
@@ -100,21 +95,21 @@ h1 {
     font-size: 2vh;
     letter-spacing: 0.8vh;
 }
-
 .text p {
     color: rgb(173, 165, 165);
     font-size: 2.5vh;
 }
+/*  FIM OVINHO 
+**********************/
 
-
+/*  INICIO HexVonWein 
+**********************/
 #HexVonWein {
     margin-top: 150px;
     align-items: center;
     text-align: center;
     
 }
-
-
 #HexVonWein .conteudo p {
     font-family:MyriadPro Regular;
     text-transform: uppercase;
@@ -122,16 +117,20 @@ h1 {
     font-size: 2vh;
     letter-spacing: 0.8vh;
 }
-
+/*  FIM HexVonWein 
+**********************/
+/*  INICIO ASbruxas 
+**********************/
+#AsBruxas {
+    background-color: #181B1E;
+}
 .img img {
     width:80%;
 }
-
 div .row {
     margin-top: 30px;
     text-align: center;
 }
-
 div .row p {
     color: rgb(173, 165, 165);
     font-size: 2.5vh;
@@ -141,17 +140,15 @@ div .row p {
  .col-lg-6 img {
     width: 50%;
  }
-
-#AsBruxas {
-    background-color: #181B1E;
-}
-
+/*  FIM ASbruxas 
+**********************/
+/*  INCIO A Vinícola 
+**********************/
 #Vinícola {
     margin-top: 60px;
     align-items: center;
     text-align: center;
 }
-
 #Vinícola .conteudo p {
     font-family:MyriadPro Regular;
     text-transform: uppercase;
@@ -159,12 +156,10 @@ div .row p {
     font-size: 2vh;
     letter-spacing: 0.8vh;
 }
-
 #text-40 {
     display: inline-block;
     width: 40%;
 }
-
 .bg-violet {
     background-color: #5C0037;
 }
@@ -181,7 +176,6 @@ div .row p {
     position: relative;
     
 }
-
 .colheita img{
     position: relative;
     z-index: -1;
@@ -189,8 +183,30 @@ div .row p {
     width: 105%;
     height: auto;
 }
-
 .padding-top-2{
     margin-top: -5vh;
 }
+/*  FIM A Vinícola 
+**********************/
 
+
+/*  INICIO singular 
+**********************/
+#singular {
+    margin-top: 5vh;
+    align-items: center;
+    text-align: center;
+    
+}
+#singular .conteudo p {
+    font-family:MyriadPro Regular;
+    text-transform: uppercase;
+    color: #C2B390;
+    font-size: 2vh;
+    letter-spacing: 0.8vh;
+}
+.text p {
+    color: rgb(173, 165, 165);
+    font-size: 2.5vh;
+}
+/*  FIM singular */ 
