@@ -168,9 +168,29 @@ div .row p {
 .bg-violet {
     background-color: #5C0037;
 }
+@media (min-width: 900px) {
+    .bg-violet p {
+        padding-top: 13vh !important;
+    }
+}
 .bg-violet p {
     font-family: MyriadPro Regular !important ;
     color: rgb(255, 255, 255) !important;
     padding-top: 5vh;
-    padding-bottom: 5vh;
+    z-index: 0;
+    position: relative;
+    
 }
+
+.colheita img{
+    position: relative;
+    z-index: -1;
+    margin-left: -3vh;
+    width: 105%;
+    height: auto;
+}
+
+.padding-top-2{
+    margin-top: -5vh;
+}
+
