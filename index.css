@@ -213,6 +213,7 @@ div .row p {
 /*  INICIO produtos */ 
 #produtos {
     background-color: #000000;
+    padding-bottom: 5vh;
 }
 #produtos h1 {
     background-color: #000000;
@@ -268,3 +269,45 @@ div .img-vinhos {
 	z-index: 10;	
 }
 /*  FIM produtos */ 
+
+/*  INICIO lebals */ 
+#lebals {
+    background-color: #fff;
+}
+
+#lebals img {
+    width: 100%;
+}
+/*  FIM lebals */ 
+
+/*  INCICIO contato */ 
+#contato{
+    padding-top: 5vh;
+    align-items: center;
+    text-align: center;
+}
+#contato .conteudo p {
+    font-family:MyriadPro Regular;
+    text-transform: uppercase;
+    color: #C2B390;
+    font-size: 2vh;
+    letter-spacing: 0.8vh;
+} 
+/*  FIM contato */ 
+
+
+/*  INCICIO footer */
+footer {
+    padding-top: 10vh;
+    background-color: #1A1C20;
+}
+footer  h1 {
+    font-size: 3vh  !important;
+    padding: 1vh;
+}
+footer p {
+    text-align: center;
+    color: #fff;
+    font-size: 2vh;
+}
+/*  FIM footer */ 
