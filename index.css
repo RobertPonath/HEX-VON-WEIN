@@ -210,3 +210,61 @@ div .row p {
     font-size: 2.5vh;
 }
 /*  FIM singular */ 
+/*  INICIO produtos */ 
+#produtos {
+    background-color: #000000;
+}
+#produtos h1 {
+    background-color: #000000;
+    color: #fff;
+    font-family: frank-ruhl-libre;
+    margin: 1vh;
+    font-size: 4.56vh ;
+    font-weight:600  ;
+}
+div .img-vinhos {
+    width: 100vh;
+}
+#produtos a{
+    font-size: 3vh;
+    font-family: MyriadPro Bold;
+    text-decoration: none;
+    color: #fff;
+    margin: 2vh;
+}
+#produtos a:hover{
+    color: #C3B491;
+}
+#produtos .btn {
+    padding: 2vh;   
+    border-radius: 0;
+    background-color: #6A013C;
+}
+#produtos .btn:hover{
+    background-color: #740045;
+    color: #fff;
+}
+#produtos div .col-lg-6 {
+    display: inline;
+    justify-content: center;
+    text-align: center;
+}
+.col-lg-6 img {
+    margin-left: -5vh;
+    overflow: hidden;
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#produtos .col-lg-6 img:hover {
+    margin-top: 5vh;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.text-item {
+    position: relative;
+	z-index: 10;	
+}
+/*  FIM produtos */ 
