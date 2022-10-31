@@ -38,8 +38,11 @@
 /*  Fim Fontes 
 **********************/
 body{
+    max-width: 100%;
+    overflow-x: hidden;
     background-color: #1A1C20;
 }
+
 /*  inicio navbar 
 **********************/
 header nav {
@@ -60,11 +63,8 @@ header li a:hover{
 }
 header li .btn {
     padding: 2vh;
-    
-    border-radius: 0;
-    margin-right: -11vh;
+    border-radius: 0; 
     background-color: #6A013C;
- 
 }
 header li .btn:hover{
     background-color: #740045;
@@ -311,3 +311,35 @@ footer p {
     font-size: 2vh;
 }
 /*  FIM footer */ 
+
+/*  INICIO desenvolvimento */ 
+#desenvolvimento {
+    margin-top: 20vh;
+    align-items: center;
+    text-align: center;
+}
+
+#desenvolvimento .conteudo p {
+    font-family:MyriadPro Regular;
+    text-transform: uppercase;
+    color: #C2B390;
+    font-size: 2vh;
+    letter-spacing: 0.8vh;
+}
+
+.botão a {
+    display: inline-block;
+    font-size: 3vh;
+    font-family: MyriadPro Bold;
+    text-decoration: none;
+    color: #fff;
+    margin: 2vh;
+    margin-bottom: 10vh;
+    color: #fff;
+    text-decoration: none;
+    padding: 2vh;
+    border-radius: 0; 
+    background-color: #6A013C;
+}
+/*  FIM desenvolvimento */ 
+
