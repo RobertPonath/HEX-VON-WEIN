@@ -348,3 +348,18 @@ footer p {
 }
 /*  FIM desenvolvimento */ 
 
+@media (max-width:768px) {
+    h1 {
+        font-size: 5vh;
+    }
+    header nav img {
+        max-width: 8vh;
+    }
+    
+    button i {
+        font-size: 4.5vh;
+    }
+    #nav-principal a {
+        font-size: 2.5vh;
+    }
+}
